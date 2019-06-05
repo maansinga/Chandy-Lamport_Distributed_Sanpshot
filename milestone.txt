@@ -1,0 +1,993 @@
+Initiating node#0
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:0    
+Node.Hostname			:dc01                            
+Node.Port			:9000 
+Node.NeighborsCount		:4    
+------------------------------------------
+Node.Neighbor[ 0].id		:1    
+Node.Neighbor[ 0].Hostname	:dc10                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:2    
+Node.Neighbor[ 1].Hostname	:dc03                            
+Node.Neighbor[ 1].Port		:9000 
+
+Node.Neighbor[ 2].id		:3    
+Node.Neighbor[ 2].Hostname	:dc04                            
+Node.Neighbor[ 2].Port		:9000 
+
+Node.Neighbor[ 3].id		:4    
+Node.Neighbor[ 3].Hostname	:dc05                            
+Node.Neighbor[ 3].Port		:9000 
+
+Sending message (0, 0, 6)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (0, 1, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (0, 2, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (0, 3, 6)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (0, 4, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (0, 5, 6)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (6, 0, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_1@dc10:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (12, 0, 3)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (12, 1, 3)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_4@dc05:9000)
+Neighbor(1) says: Hi from node   1 to   0 (  4)
+[15 4 0 0 0 12 0 0 0]
+Neighbor(1) says: Hi from node   1 to   0 ( 10)
+[15 10 0 0 0 12 0 0 0]
+Neighbor(1) says: Hi from node   1 to   0 ( 12)
+[15 12 0 0 0 12 0 0 0]
+Neighbor(1) says: Hi from node   1 to   0 ( 14)
+[15 14 0 0 0 12 0 0 0]
+Neighbor(4) says: Hi from node   4 to   0 (  2)
+[15 14 0 0 2 12 0 0 0]
+Neighbor(4) says: Hi from node   4 to   0 (  7)
+[15 14 0 0 7 12 0 0 0]
+Neighbor(4) says: Hi from node   4 to   0 (  8)
+[15 14 0 0 8 12 0 0 0]
+Neighbor(3) says: Hi from node   3 to   0 (  3)
+[15 14 0 3 8 12 0 0 0]
+Neighbor(3) says: Hi from node   3 to   0 (  5)
+[15 14 0 5 8 12 0 0 0]
+Neighbor(3) says: Hi from node   3 to   0 ( 12)
+[15 14 0 12 13 12 10 14 0]
+Neighbor(2) says: Hi from node   2 to   0 (  3)
+[15 14 3 12 13 12 13 14 2]
+Neighbor(2) says: Hi from node   2 to   0 (  5)
+[15 14 5 12 13 12 13 14 2]
+Neighbor(2) says: Hi from node   2 to   0 ( 12)
+[15 14 12 12 14 14 13 14 7]
+Mainloop terminated
+[15 14 12 12 14 14 13 14 7]
+Terminating node#0
+Initiating node#1
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:1    
+Node.Hostname			:dc10                            
+Node.Port			:9000 
+Node.NeighborsCount		:3    
+------------------------------------------
+Node.Neighbor[ 0].id		:5    
+Node.Neighbor[ 0].Hostname	:dc06                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:6    
+Node.Neighbor[ 1].Hostname	:dc07                            
+Node.Neighbor[ 1].Port		:9000 
+
+Node.Neighbor[ 2].id		:0    
+Node.Neighbor[ 2].Hostname	:dc01                            
+Node.Neighbor[ 2].Port		:9000 
+
+Neighbor(5) says: Hi from node   5 to   1 (  1)
+Sending message (0, 0, 6)
+[Sending message to neighbor(node_6@dc07:9000)
+0 0 0 0 0 1 0 0 0]
+Sending message (0, 1, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Neighbor(5) says: Hi from node   5 to   1 (  6)
+[0 1 0 0 0 6 0 0 0]
+Sending message (0, 2, 6)
+Sending message to neighbor(node_5@dc06:9000)
+Neighbor(5) says: Hi from node   5 to   1 (  7)
+[0 2 0 0 0 7 0 0 0]
+Neighbor(5) says: Hi from node   5 to   1 ( 10)
+[0 2 0 0 0 10 0 0 0]
+Neighbor(5) says: Hi from node   5 to   1 ( 12)
+[0 2 0 0 0 12 0 0 0]
+Sending message (0, 3, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (0, 4, 6)
+Sending message to neighbor(node_0@dc01:9000)
+Neighbor(0) says: Hi from node   0 to   1 (  7)
+[7 4 0 0 0 12 0 0 0]
+Sending message (0, 5, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (6, 0, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_5@dc06:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_5@dc06:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_0@dc01:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (12, 0, 3)
+Sending message to neighbor(node_0@dc01:9000)
+Sending message (12, 1, 3)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_0@dc01:9000)
+Neighbor(6) says: Hi from node   6 to   1 (  2)
+[7 15 0 0 0 12 2 0 0]
+Neighbor(6) says: Hi from node   6 to   1 (  7)
+[7 15 0 0 0 12 7 0 0]
+Neighbor(6) says: Hi from node   6 to   1 (  8)
+[7 15 0 0 0 12 8 0 0]
+Mainloop terminated
+[7 15 0 0 0 12 8 0 0]
+Terminating node#1
+Initiating node#2
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:2    
+Node.Hostname			:dc03                            
+Node.Port			:9000 
+Node.NeighborsCount		:5    
+------------------------------------------
+Node.Neighbor[ 0].id		:0    
+Node.Neighbor[ 0].Hostname	:dc01                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:5    
+Node.Neighbor[ 1].Hostname	:dc06                            
+Node.Neighbor[ 1].Port		:9000 
+
+Node.Neighbor[ 2].id		:6    
+Node.Neighbor[ 2].Hostname	:dc07                            
+Node.Neighbor[ 2].Port		:9000 
+
+Node.Neighbor[ 3].id		:7    
+Node.Neighbor[ 3].Hostname	:dc08                            
+Node.Neighbor[ 3].Port		:9000 
+
+Node.Neighbor[ 4].id		:8    
+Node.Neighbor[ 4].Hostname	:dc09                            
+Node.Neighbor[ 4].Port		:9000 
+
+Neighbor(0) says: Hi from node   0 to   2 (  2)
+[2 Neighbor(7) says: Hi from node   7 to   2 (  1)
+0 [0 0 0 0 0 1 0]
+2 0 0 0 0 0 0 1 0]
+Neighbor(0) says: Hi from node   0 to   2 (  4)
+[4 0 Neighbor(7) says: Hi from node   7 to   2 (  6)
+0 [4 0 0 0 0 0 0 0 6 0 0]
+0 0 6 0]
+Neighbor(7) says: Hi from node   7 to   2 (  7)
+[4 0 0 0 0 0 Neighbor(0) says: Hi from node   0 to   2 (  8)
+0 [8 0 7 0 0]
+0 0 0 0 7 0]
+Neighbor(7) says: Hi from node   7 to   2 ( 10)
+[8 0 0 0 0 0 0 10 0]
+Neighbor(0) says: Hi from node   0 to   2 (  9)
+[9 0 0 0 0 0 0 10 0]
+Neighbor(7) says: Hi from node   7 to   2 ( 12)
+[9 0 0 0 0 Neighbor(6) says: Hi from node   6 to   2 (  0)
+Sending message (0, 0, 6)
+[9 0 0 0 0 1 0 12 Sending message to neighbor(node_7@dc08:9000)
+0]
+Neighbor(6) says: Hi from node   6 to   2 (  1)
+[9 0 0 0 0 1 1 12 0]
+Neighbor(6) says: Hi from node   6 to   2 (  3)
+[9 6 0 0 0 12 3 12 0]
+Neighbor(6) says: Hi from node   6 to   2 (  5)
+[9 13 0 0 0 12 5 12 0]
+Neighbor(6) says: Hi from node   6 to   2 (  6)
+[9 13 1 0 0 12 6 12 0]
+Neighbor(6) says: Hi from node   6 to   2 (  9)
+[9 13 1 0 0 12 9 12 0]
+Neighbor(8) says: Hi from node   8 to   2 (  2)
+[14 13 1 0 4 12 9 12 2]
+Neighbor(6) says: Hi from node   6 to   2 ( 11)
+[14 13 1 0 4 12 11 12 2]
+Sending message (0, 1, 6)
+Sending message to neighbor(node_5@dc06:9000)
+Neighbor(6) says: Hi from node   6 to   2 ( 13)
+[14 13 1 0 4 12 13 12 2]
+Sending message (0, 2, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (0, 3, 6)
+Sending message to neighbor(node_0@dc01:9000)
+Sending message (0, 4, 6)
+Sending message to neighbor(node_7@dc08:9000)
+Sending message (0, 5, 6)
+Sending message to neighbor(node_0@dc01:9000)
+Neighbor(5) says: Hi from node   5 to   2 (  0)
+[14 13 6 0 4 12 13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 (  2)
+[14 13 6 0 4 12 13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 (  3)
+[14 13 6 0 4 12 13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 (  4)
+[14 13 6 0 4 12 13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 (  5)
+[14 13 6 0 4 12 13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 (  8)
+[14 13 6 0 4 12 0 13 12 2]
+13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 (  9)
+[14 13 6 0 4 12 13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 ( 11)
+[14 13 6 0 4 12 13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 ( 13)
+[14 13 6 0 4 13 13 12 2]
+Neighbor(5) says: Hi from node   5 to   2 ( 14)
+[14 13 6 0 4 14 13 12 2]
+Neighbor(8) says: Hi from node   8 to   2 (  7)
+[14 13 6 11 14 14 13 14 6]
+Neighbor(8) says: Hi from node   8 to   2 (  8)
+[14 13 6 11 14 14 13 14 7]
+Sending message (6, 0, 6)
+Sending message to neighbor(node_5@dc06:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_8@dc09:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_5@dc06:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (12, 0, 3)
+Sending message to neighbor(node_0@dc01:9000)
+Sending message (12, 1, 3)
+Sending message to neighbor(node_8@dc09:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_7@dc08:9000)
+Mainloop terminated
+[14 13 15 11 14 14 13 14 7]
+Terminating node#2
+Initiating node#3
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:3    
+Node.Hostname			:dc04                            
+Node.Port			:9000 
+Node.NeighborsCount		:5    
+------------------------------------------
+Node.Neighbor[ 0].id		:0    
+Node.Neighbor[ 0].Hostname	:dc01                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:4    
+Node.Neighbor[ 1].Hostname	:dc05                            
+Node.Neighbor[ 1].Port		:9000 
+
+Node.Neighbor[ 2].id		:8    
+Node.Neighbor[ 2].Hostname	:dc09                            
+Node.Neighbor[ 2].Port		:9000 
+
+Node.Neighbor[ 3].id		:7    
+Node.Neighbor[ 3].Hostname	:dc08                            
+Node.Neighbor[ 3].Port		:9000 
+
+Node.Neighbor[ 4].id		:6    
+Node.Neighbor[ 4].Hostname	:dc07                            
+Node.Neighbor[ 4].Port		:9000 
+
+Neighbor(0) says: Hi from node   0 to   3 (  1)
+Sending message (0, 0, 6)
+Sending message to neighbor(node_7@dc08:9000)
+[1 0 0 0 0 0 0 0 0]
+Neighbor(0) says: Hi from node   0 to   3 (  6)
+[6 0 0 0 0 0 0 0 Sending message (0, 1, 6)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (0, 2, 6)
+Sending message to neighbor(node_8@dc09:9000)
+Sending message (0, 3, 6)
+Sending message to neighbor(node_0@dc01:9000)
+Sending message (0, 4, 6)
+Sending message to neighbor(node_7@dc08:9000)
+Sending message (0, 5, 6)
+Sending message to neighbor(node_0@dc01:9000)
+0]
+Neighbor(4) says: Hi from node   4 to   3 (  0)
+[6 0 0 6 0 0 0 0 0]
+Neighbor(0) says: Hi from node   0 to   3 ( 10)
+[10 0 0 6 0 0 0 0 0]
+Neighbor(4) says: Hi from node   4 to   3 (  1)
+[10 0 0 6 1 0 0 0 0]
+Neighbor(0) says: Hi from node   0 to   3 ( 12)
+[12 0 0 6 Neighbor(4) says: Hi from node   4 to   3 (  3)
+1 [13 0 0 0 0 6 3 0 0 0 0 0]
+0]
+Neighbor(4) says: Hi from node   4 to   3 (  5)
+[14 0 0 6 5 0 0 0 0]
+Neighbor(4) says: Hi from node   4 to   3 (  6)
+[14 0 0 6 6 0 0 0 0]
+Neighbor(4) says: Hi from node   4 to   3 (  9)
+[14 0 0 6 9 0 0 0 0]
+Neighbor(4) says: Hi from node   4 to   3 ( 11)
+[14 0 0 6 11 0 0 0 0]
+Neighbor(4) says: Hi from node   4 to   3 ( 13)
+[14 0 0 6 13 0 0 0 0]
+Neighbor(7) says: Hi from node   7 to   3 (  0)
+[14 0 0 6 13 0 0 0 0]
+Neighbor(7) says: Hi from node   7 to   3 (  2)
+[14 0 0 6 13 0 0 2 0]
+Neighbor(7) says: Hi from node   7 to   3 (  3)
+[14 0 0 6 13 0 0 3 0]
+Neighbor(7) says: Hi from node   7 to   3 (  4)
+[14 0 0 6 13 0 0 4 0]
+Neighbor(7) says: Hi from node   7 to   3 (  5)
+[14 0 0 6 13 0 0 5 0]
+Neighbor(7) says: Hi from node   7 to   3 (  8)
+[14 0 0 6 13 0 0 8 0]
+Neighbor(7) says: Hi from node   7 to   3 (  9)
+[14 0 0 6 13 0 0 9 0]
+Neighbor(7) says: Hi from node   7 to   3 ( 11)
+[14 0 0 6 13 0 0 11 0]
+Neighbor(7) says: Hi from node   7 to   3 ( 13)
+[14 0 0 6 13 0 0 13 0]
+Neighbor(7) says: Hi from node   7 to   3 ( 14)
+[14 0 0 6 13 0 0 14 0]
+Sending message (6, 0, 6)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_8@dc09:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_8@dc09:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_8@dc09:9000)
+Neighbor(6) says: Hi from node   6 to   3 (  4)
+[14 13 0 12 13 12 4 14 0]
+Sending message (12, 0, 3)
+Sending message to neighbor(node_0@dc01:9000)
+Neighbor(6) says: Hi from node   6 to   3 ( 10)
+[14 13 0 12 13 12 10 14 0]
+Sending message (12, 1, 3)
+Sending message to neighbor(node_6@dc07:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_7@dc08:9000)
+Neighbor(6) says: Hi from node   6 to   3 ( 12)
+[14 13 0 15 13 12 12 14 0]
+Neighbor(6) says: Hi from node   6 to   3 ( 14)
+[14 13 0 15 13 12 14 14 0]
+Neighbor(8) says: Hi from node   8 to   3 (  0)
+[14 13 0 15 13 12 14 14 0]
+Neighbor(8) says: Hi from node   8 to   3 (  1)
+[14 13 0 15 13 12 14 14 1]
+Neighbor(8) says: Hi from node   8 to   3 (  3)
+[14 13 0 15 13 12 14 14 3]
+Neighbor(8) says: Hi from node   8 to   3 (  5)
+[14 13 0 15 13 12 14 14 5]
+Neighbor(8) says: Hi from node   8 to   3 (  6)
+[14 13 0 15 14 12 14 14 5]
+Neighbor(8) says: Hi from node   8 to   3 (  9)
+[14 13 0 15 14 12 14 14 8]
+Neighbor(8) says: Hi from node   8 to   3 ( 11)
+[14 13 0 15 14 12 14 14 10]
+Neighbor(8) says: Hi from node   8 to   3 ( 13)
+[14 13 0 15 14 12 14 14 12]
+Mainloop terminated
+[14 13 0 15 14 12 14 14 12]
+Terminating node#3
+Initiating node#4
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:4    
+Node.Hostname			:dc05                            
+Node.Port			:9000 
+Node.NeighborsCount		:3    
+------------------------------------------
+Node.Neighbor[ 0].id		:0    
+Node.Neighbor[ 0].Hostname	:dc01                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:3    
+Node.Neighbor[ 1].Hostname	:dc04                            
+Node.Neighbor[ 1].Port		:9000 
+
+Node.Neighbor[ 2].id		:8    
+Node.Neighbor[ 2].Hostname	:dc09                            
+Node.Neighbor[ 2].Port		:9000 
+
+Neighbor(0) says: Hi from node   0 to   4 (  0)
+Sending message (0, 0, 6)
+Sending message to neighbor(node_3@dc04:9000)
+[0 0 0 0 0 0 0 0 0]
+Neighbor(0) says: Hi from node   0 to   4 (  3)
+[3 0 0 0 0 0 0 0 0]
+Neighbor(0) says: Hi from node   0 to   4 (  5)
+[5 0 Sending message (0, 1, 6)
+0 Sending message to neighbor(node_3@dc04:9000)
+0 1 0 0 0 0]
+Sending message (0, 2, 6)
+Sending message to neighbor(node_0@dc01:9000)
+Neighbor(0) says: Hi from node   0 to   4 ( 11)
+[11 0 0 0 2 0 0 0 0]
+Neighbor(0) says: Hi from node   0 to   4 ( 13)
+[13 0 0 0 2 0 0 0 0]
+Sending message (0, 3, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Neighbor(0) says: Hi from node   0 to   4 ( 14)
+[14 0 0 0 4 0 0 Sending message (0, 4, 6)
+0 Sending message to neighbor(node_8@dc09:9000)
+0]
+Sending message (0, 5, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 0, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_0@dc01:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_0@dc01:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_8@dc09:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (12, 0, 3)
+Sending message to neighbor(node_8@dc09:9000)
+Sending message (12, 1, 3)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_8@dc09:9000)
+Neighbor(3) says: Hi from node   3 to   4 (  1)
+[14 0 0 1 15 0 0 0 0]
+Neighbor(3) says: Hi from node   3 to   4 (  6)
+[14 0 0 6 15 0 0 14 0]
+Neighbor(3) says: Hi from node   3 to   4 (  9)
+[14 0 0 9 15 0 0 14 0]
+Neighbor(8) says: Hi from node   8 to   4 (  4)
+[14 0 0 9 15 0 0 14 4]
+Neighbor(8) says: Hi from node   8 to   4 ( 10)
+[14 0 0 11 15 0 0 14 9]
+Neighbor(8) says: Hi from node   8 to   4 ( 12)
+[14 0 0 11 15 0 0 14 11]
+Neighbor(8) says: Hi from node   8 to   4 ( 14)
+[14 0 0 11 15 0 0 14 13]
+Mainloop terminated
+[14 0 0 11 15 0 0 14 13]
+Terminating node#4
+Initiating node#5
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:5    
+Node.Hostname			:dc06                            
+Node.Port			:9000 
+Node.NeighborsCount		:2    
+------------------------------------------
+Node.Neighbor[ 0].id		:1    
+Node.Neighbor[ 0].Hostname	:dc10                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:2    
+Node.Neighbor[ 1].Hostname	:dc03                            
+Node.Neighbor[ 1].Port		:9000 
+
+Sending message (0, 0, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (0, 1, 6)
+Sending message to neighbor(node_1@dc10:9000)
+Sending message (0, 2, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (0, 3, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (0, 4, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (0, 5, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 0, 6)
+Sending message to neighbor(node_1@dc10:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_1@dc10:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_1@dc10:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (12, 0, 3)
+Sending message to neighbor(node_1@dc10:9000)
+Sending message (12, 1, 3)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_2@dc03:9000)
+Neighbor(1) says: Hi from node   1 to   5 (  2)
+[0 2 0 0 0 15 0 0 0]
+Neighbor(1) says: Hi from node   1 to   5 (  7)
+[7 7 0 0 0 15 0 0 0]
+Neighbor(1) says: Hi from node   1 to   5 (  8)
+[7 8 0 0 0 15 0 0 0]
+Neighbor(2) says: Hi from node   2 to   5 (  1)
+[14 13 1 0 4 15 13 12 2]
+Neighbor(2) says: Hi from node   2 to   5 (  6)
+[14 13 6 11 14 15 13 14 7]
+Neighbor(2) says: Hi from node   2 to   5 (  9)
+[14 13 9 11 14 15 13 14 7]
+Mainloop terminated
+[14 13 9 11 14 15 13 14 7]
+Terminating node#5
+Initiating node#6
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:6    
+Node.Hostname			:dc07                            
+Node.Port			:9000 
+Node.NeighborsCount		:3    
+------------------------------------------
+Node.Neighbor[ 0].id		:1    
+Node.Neighbor[ 0].Hostname	:dc10                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:2    
+Node.Neighbor[ 1].Hostname	:dc03                            
+Node.Neighbor[ 1].Port		:9000 
+
+Node.Neighbor[ 2].id		:3    
+Node.Neighbor[ 2].Hostname	:dc04                            
+Node.Neighbor[ 2].Port		:9000 
+
+Sending message (0, 0, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Neighbor(1) says: Hi from node   1 to   6 (  0)
+[0 0 0 0 0 1 0 0 0]
+Sending message (0, 1, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Neighbor(1) says: Hi from node   1 to   6 (  1)
+[0 1 0 0 0 6 1 0 0]
+Sending message (0, 2, 6)
+Sending message to neighbor(node_1@dc10:9000)
+Neighbor(1) says: Hi from node   1 to   6 (  3)
+[0 3 0 0 0 12 2 0 0]
+Neighbor(1) says: Hi from node   1 to   6 (  5)
+[7 5 0 0 0 12 2 0 0]
+Neighbor(1) says: Hi from node   1 to   6 (  6)
+[7 6 0 0 0 12 3 0 0]
+Sending message (0, 3, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (0, 4, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Neighbor(1) says: Hi from node   1 to   6 (  9)
+[7 9 0 0 0 12 4 0 0]
+Neighbor(1) says: Hi from node   1 to   6 ( 11)
+[7 11 0 0 0 12 4 0 0]
+Neighbor(1) says: Hi from node   1 to   6 ( 13)
+[7 13 0 0 0 12 4 0 0]
+Sending message (0, 5, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 0, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_1@dc10:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_1@dc10:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (12, 0, 3)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (12, 1, 3)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_3@dc04:9000)
+Neighbor(3) says: Hi from node   3 to   6 (  8)
+[14 13 0 8 13 12 15 14 0]
+Neighbor(3) says: Hi from node   3 to   6 ( 13)
+[14 13 0 13 13 12 15 14 0]
+Neighbor(2) says: Hi from node   2 to   6 (  2)
+[14 13 2 13 13 12 15 14 2]
+Neighbor(2) says: Hi from node   2 to   6 (  7)
+[14 13 7 13 14 14 15 14 7]
+Neighbor(2) says: Hi from node   2 to   6 ( 10)
+[14 13 10 13 14 14 15 14 7]
+Neighbor(2) says: Hi from node   2 to   6 ( 11)
+[14 13 11 13 14 14 15 14 7]
+Mainloop terminated
+[14 13 11 13 14 14 15 14 7]
+Terminating node#6
+Initiating node#7
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:7    
+Node.Hostname			:dc08                            
+Node.Port			:9000 
+Node.NeighborsCount		:2    
+------------------------------------------
+Node.Neighbor[ 0].id		:2    
+Node.Neighbor[ 0].Hostname	:dc03                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:3    
+Node.Neighbor[ 1].Hostname	:dc04                            
+Node.Neighbor[ 1].Port		:9000 
+
+Sending message (0, 0, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (0, 1, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (0, 2, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (0, 3, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (0, 4, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (0, 5, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 0, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (12, 0, 3)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (12, 1, 3)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_3@dc04:9000)
+Neighbor(3) says: Hi from node   3 to   7 (  0)
+[6 0 0 0 0 0 0 15 0]
+Neighbor(3) says: Hi from node   3 to   7 (  4)
+[6 0 0 4 0 0 0 15 0]
+Neighbor(3) says: Hi from node   3 to   7 ( 14)
+[14 13 0 14 13 12 10 15 0]
+Neighbor(2) says: Hi from node   2 to   7 (  0)
+[14 13 0 14 13 12 10 15 0]
+Neighbor(2) says: Hi from node   2 to   7 (  4)
+[14 13 4 14 13 12 13 15 2]
+Neighbor(2) says: Hi from node   2 to   7 ( 14)
+[14 13 14 14 14 14 13 15 7]
+Mainloop terminated
+[14 13 14 14 14 14 13 15 7]
+Terminating node#7
+Initiating node#8
+9 6 10 100 2000 15
+0 dc01 9000
+1 dc10 9000
+2 dc03 9000
+3 dc04 9000
+4 dc05 9000
+5 dc06 9000
+6 dc07 9000
+7 dc08 9000
+8 dc09 9000
+1 2 3 4
+5 6 0
+0 5 6 7 8
+0 4 8 7 6
+0 3 8
+1 2
+1 2 3
+2 3
+2 3 4
+            This is the config
+------------------------------------------
+N				:9  
+MinPerActive			:6    
+MaxPerActive			:10   
+MinSendDelay			:100  
+SnapshotDelay			:2000 
+MaxNumber			:15   
+------------------------------------------
+Node.ID				:8    
+Node.Hostname			:dc09                            
+Node.Port			:9000 
+Node.NeighborsCount		:3    
+------------------------------------------
+Node.Neighbor[ 0].id		:2    
+Node.Neighbor[ 0].Hostname	:dc03                            
+Node.Neighbor[ 0].Port		:9000 
+
+Node.Neighbor[ 1].id		:3    
+Node.Neighbor[ 1].Hostname	:dc04                            
+Node.Neighbor[ 1].Port		:9000 
+
+Node.Neighbor[ 2].id		:4    
+Node.Neighbor[ 2].Hostname	:dc05                            
+Node.Neighbor[ 2].Port		:9000 
+
+Sending message (0, 0, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (0, 1, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Neighbor(4) says: Hi from node   4 to   8 (  4)
+Sending message (0, 2, 6)
+Sending message to neighbor(node_2@dc03:9000)
+[14 0 0 0 4 0 0 0 2]
+Sending message (0, 3, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Neighbor(4) says: Hi from node   4 to   8 ( 10)
+Sending message (0, 4, 6)
+[14 0 Sending message to neighbor(node_4@dc05:9000)
+0 0 10 0 0 0 4]
+Neighbor(4) says: Hi from node   4 to   8 ( 12)
+[14 0 0 0 12 0 0 0 4]
+Sending message (0, 5, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Neighbor(4) says: Hi from node   4 to   8 ( 14)
+[14 0 0 0 14 0 0 0 5]
+Neighbor(3) says: Hi from node   3 to   8 (  2)
+[14 0 0 2 14 0 0 0 5]
+Neighbor(3) says: Hi from node   3 to   8 (  7)
+[14 0 0 7 14 0 0 14 5]
+Neighbor(3) says: Hi from node   3 to   8 ( 10)
+[14 0 0 10 14 0 0 14 5]
+Neighbor(3) says: Hi from node   3 to   8 ( 11)
+[14 0 0 11 14 0 0 14 5]
+Sending message (6, 0, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 1, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 2, 6)
+Sending message to neighbor(node_2@dc03:9000)
+Sending message (6, 3, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (6, 4, 6)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (6, 5, 6)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (12, 0, 3)
+Sending message to neighbor(node_4@dc05:9000)
+Sending message (12, 1, 3)
+Sending message to neighbor(node_3@dc04:9000)
+Sending message (12, 2, 3)
+Sending message to neighbor(node_4@dc05:9000)
+Neighbor(2) says: Hi from node   2 to   8 (  8)
+[14 13 8 11 14 14 13 14 14]
+Neighbor(2) says: Hi from node   2 to   8 ( 13)
+[14 13 13 11 14 14 13 14 14]
+Mainloop terminated
+[14 13 13 11 14 14 13 14 14]
+Terminating node#8

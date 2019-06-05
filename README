@@ -1,0 +1,20 @@
+----------------------Team----------------------
+[Haneesha] Gurugubelli - Java (hxg170830)
+Sree Teja [Simha] Gemaraju - C (sxg177330)
+Sunkollu Nagaraj [Sushma] - Java (sxs173433)
+------------------------------------------------
+
+**Compilation:**
+	make
+
+**Launch:**
+	sh launcher.sh
+
+**Cleanup:(Delete logfiles and dumpfiles)**
+	sh cleanup.sh
+
+**Force Termination:(If a run has failed)**
+	sh killall.sh
+
+**Purge:(Sanitize system)**
+	sh purge.sh

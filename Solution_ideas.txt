@@ -1,0 +1,36 @@
+The application needs to be split into application layer which implements the MAP protocol and the service layer that implements the ChandyAndLamport protocol.
+
+- No where in the specification, the MAP protocol interacts with timestamps
+- Only the ChandyLamport protocol service is supposed to be augmented to perform termination
+- The MAP protocol is only aware of neighboring nodes through their IDs. Not even addresses.
+- The service layer adds/drops the timestamps accordingly.
+- The onus is on service layer to maintain the timestamps.
+
+- The MAP protocol is not expected to freeze when Snapshot protocol is being executed. 
+- Thus, there is a need for message buffering.
+- When snapshots are in progress, the MAP protocol application may send messages but they wont get delivered untill the snapshots are done.
+- The MAP protocol's message reading end(a thread) will be blocked on the read() on the pipe() as the pipe()'s write semaphore is locked on the service end.
+- If snapshots are in progress,
+	- A node(i) receives MARKER_INIT from node(j)
+	- If this is the first MARKER_INIT message:
+		- node(i) stops sending messages:  The messages that application send()s are buffered
+	- node(i) sends MARKER_INIT messages to it's neighbors
+	- node(i) accepts the messages from neighbors until they respond with MARKER_ACK/NACK
+	- if node(j)'s MARKER_INIT is the first to arrive:
+		- node(i) sends MARKER_ACK to node(j)
+	- else
+		- node(i) sends MARKER_NACK to node(j)
+	- node(i) waits for node(j), the first MARKER_INIT sender, to send MARKER_COLLECT
+	
+
+
+
++ The MAP protocol sends and receives messages through read() and write() operations on a pipe().
++ The message shall have a structure like this
+		Message:
+			dest:	<node_id>
+			size:	<size of data>
+			
+			data:	<byte array>
+
++ The ChandyLamport service reads the other end of pipe() and determines which node this message needs to goto.
